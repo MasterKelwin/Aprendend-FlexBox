@@ -75,7 +75,7 @@
 
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
 
     .cabecalhoPrincipal .container {
         display: flex;
@@ -127,5 +127,12 @@
         display: flex;
         justify-content: center;
     }
+    
+    .videoSobre-video {
+        flex-shrink: 2;
+    }
 
+    .videoSobre .container {
+        flex-direction: column;
+    }
 }
