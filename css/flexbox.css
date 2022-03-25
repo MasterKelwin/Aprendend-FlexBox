@@ -8,6 +8,12 @@
     display: flex;
 }
 
+.rodapePrincipal-patrocinadores .container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
 .conteudoPrincipal-cursos {
 	display: flex;
 	flex-wrap: wrap;
